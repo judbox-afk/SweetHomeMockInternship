@@ -31,7 +31,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 class StudentFeaturesTest {
   @Test
-  void descriptionIsEditable() {
+  void  descriptionIsEditable() {
     HomeFurnitureController controller =
         new HomeFurnitureController(new Home(), null, null, null);
 
